@@ -1,0 +1,175 @@
+.shop-section {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f7f4;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.shop-item {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(93, 162, 111, 0.15);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.shop-item:hover {
+  transform: translateY(-5px);
+}
+
+.shop-item-img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.shop-discount {
+  display: inline-block;
+  background-color: rgba(255, 0, 0, 0.578);
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+}
+
+.shop-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0c7d69;
+  margin: 0.5rem 0;
+}
+
+.shop-title a {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #2d3748;
+  text-decoration: none;
+}
+
+.shop-title a:hover {
+  color: #5da26f;
+}
+
+.shop-details {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.shop-details li {
+  margin: 0.3rem 0;
+}
+
+.shop-details span {
+  font-weight: 500;
+}
+
+.shop-add-btn {
+  background-color: #5da26f;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.shop-add-btn:hover {
+  background-color: #4a8a5a;
+  transform: translateY(-2px);
+}
+
+.shop-add-btn:active {
+  transform: translateY(0);
+}
+
+.shop-no-results,
+.shop-loading {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .shop-item {
+    padding: 1rem;
+  }
+
+  .shop-item-img {
+    max-height: 150px;
+  }
+
+  .shop-price {
+    font-size: 1.1rem;
+  }
+
+  .shop-title a {
+    font-size: 1rem;
+  }
+
+  .shop-add-btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .shop-section {
+    padding: 1rem 0;
+  }
+
+  .shop-item {
+    padding: 0.8rem;
+  }
+
+  .shop-item-img {
+    max-height: 120px;
+  }
+
+  .shop-price {
+    font-size: 1rem;
+  }
+
+  .shop-title a {
+    font-size: 0.9rem;
+  }
+
+  .shop-details {
+    font-size: 0.85rem;
+  }
+
+  .shop-add-btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* Additional styles for category buttons */
+.btn-primary {
+  background-color: #5da26f;
+  border-color: #5da26f;
+}
+
+.btn-primary:hover {
+  background-color: #4a8a5a;
+  border-color: #4a8a5a;
+}
+
+.btn-outline-primary {
+  color: #5da26f;
+  border-color: #5da26f;
+}
+
+.btn-outline-primary:hover {
+  background-color: #5da26f;
+  color: white;
+}

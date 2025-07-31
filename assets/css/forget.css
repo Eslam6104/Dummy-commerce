@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.forget-page {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f7f4;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2d3748;
+  line-height: 1.6;
+}
+
+.forget-container {
+  background-color: white;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(93, 162, 111, 0.15);
+  padding: 2.5rem;
+  margin: 1rem;
+}
+
+.forget-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.forget-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0c7d69;
+  margin-bottom: 0.5rem;
+}
+
+.forget-header p {
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+
+.forget-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.forget-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.forget-form-group label {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.forget-form-group input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.forget-form-group input:focus {
+  outline: none;
+  border-color: #5da26f;
+  box-shadow: 0 0 0 3px rgba(93, 162, 111, 0.2);
+}
+
+.forget-form-group ::placeholder {
+  color: #a0aec0;
+  font-size: 0.9rem;
+}
+
+.forget-submit-btn {
+  background-color: #5da26f;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.forget-submit-btn:hover {
+  background-color: #4a8a5a;
+  transform: translateY(-2px);
+    color: white;
+
+}
+
+.forget-submit-btn:active {
+  transform: translateY(0);
+}
+
+.forget-footer {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.forget-footer a {
+  color: #5da26f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.forget-footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .forget-container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .forget-header h1 {
+    font-size: 1.5rem;
+  }
+}

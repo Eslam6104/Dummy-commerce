@@ -1,0 +1,101 @@
+.checkout {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f7f4;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.checkout-form,
+.order-summary {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(93, 162, 111, 0.15);
+}
+
+.checkout-form h4,
+.order-summary h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.checkout-form .form-label {
+  font-weight: 500;
+  color: #4a5568;
+}
+
+.checkout-form .form-control {
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem;
+}
+
+.checkout-form .form-check-label {
+  color: #4a5568;
+}
+
+.checkout-btn {
+  background-color: #5da26f;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #4a8a5a;
+  transform: translateY(-2px);
+}
+
+.checkout-btn:active {
+  transform: translateY(0);
+}
+
+.order-summary .d-flex {
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.order-summary .d-flex strong {
+  color: #2d3748;
+}
+
+@media (max-width: 768px) {
+  .checkout {
+    padding: 1rem 0;
+  }
+
+  .checkout-form,
+  .order-summary {
+    padding: 1rem;
+  }
+
+  .checkout-form h4,
+  .order-summary h4 {
+    font-size: 1.3rem;
+  }
+
+  .checkout-btn {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .checkout-form h4,
+  .order-summary h4 {
+    font-size: 1.2rem;
+  }
+
+  .checkout-btn {
+    padding: 0.6rem;
+    font-size: 0.85rem;
+  }
+
+  .order-summary .d-flex {
+    font-size: 0.9rem;
+  }
+}  

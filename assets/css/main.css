@@ -1,0 +1,115 @@
+*{
+    padding: 0% ;
+    margin: 0% ;
+    
+    box-sizing: border-box  !important;
+}
+.backg-dark {
+    background-color: #212934 !important;
+}
+.p50{
+    padding: 70px 0;
+}
+body{
+    font-family: 'Roboto', 'Source Sans' !important;
+  font-size: 18px !important;
+  font-weight: 300  !important;
+
+}
+.review{
+    color: #a19797 !important;
+}
+ul{
+    list-style: none !important;
+}
+.light-green{
+    color: #59ab6e !important;
+}
+.f50{
+    font-size: 50px !important;
+    font-weight: 200 !important;
+}
+.f60{
+    font-size: 60px !important;
+    font-weight: 200 !important;
+}
+.gold{
+    color: gold !important;
+}
+a{
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) ;
+}
+.hover-success:hover{
+    color: #59ab6e !important;
+    
+}
+/* start subnav */
+.sub-header{
+   font-size: 1rem ;
+}
+
+/* start nav */
+nav .nav-link:hover{
+      color: #59ab6e!important;
+    
+}
+/* start carousol */
+
+.bs-grey{
+    background-color: #EFEFEF !important;
+}
+.bs-light{
+   background-color: #e9eef5 !important;;
+}
+.carousel-item span{
+  font-size: 2. !important;
+  
+}
+/* start product category*/
+.product-card .feature-card-img img{
+   
+    border-radius: 50% !important;
+    
+}
+
+
+.OurBrandHover:hover i{
+color: #fff !important;
+}
+.OurBrandHover:hover h2{
+color: #fff !important;
+}
+.OurBrandHover:hover {
+background-color:#198754;
+}
+/* start footer */
+footer a{
+    color: white;
+}
+.line-foot{
+    width: 90%;
+    height: 0.5px;
+    background-color: #837979 !important;
+
+}
+.bg-dark-black{
+
+    background-color: #1d242d !important;
+}
+footer{
+    position: relative  !important;
+}
+.Footer-media li:hover {
+    background-color: #fff;
+}
+.Footer-media li:hover i {
+    color: #000;
+}
+.b-footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 20px 10px;
+
+}

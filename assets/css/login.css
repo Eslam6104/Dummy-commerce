@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-page {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(135deg, #f0f7f4 0%, #d4e4d9 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2d3748;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+.login-container {
+  background-color: white;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(93, 162, 111, 0.2);
+  padding: 2.5rem;
+  margin: 1rem;
+  animation: slideIn 0.6s ease-out;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0c7d69;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+h2.text-danger {
+  font-size: 1rem;
+  color: #0c7d69; 
+}
+h2.text-danger:hover {
+  color: #4a8a5a;
+}
+.login-header p {
+  color: #4a5568;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.login-form-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.login-form-group label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #2d3748;
+}
+
+.login-form-group label[for="email"]::before,
+.login-form-group label[for="password"]::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 0.5rem;
+  color: #5da26f;
+}
+
+.login-form-group label[for="email"]::before {
+  content: "\f0e0"; /* Font Awesome envelope icon */
+}
+
+.login-form-group label[for="password"]::before {
+  content: "\f023"; /* Font Awesome lock icon */
+}
+
+.login-form-group input {
+  padding: 0.9rem 1rem 0.9rem 2.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  background-color: #f9fafb;
+}
+
+.login-form-group input:focus {
+  outline: none;
+  border-color: #5da26f;
+  box-shadow: 0 0 0 4px rgba(93, 162, 111, 0.25);
+}
+
+.login-form-group input::placeholder {
+  color: #a0aec0;
+  font-size: 0.95rem;
+}
+
+.login-submit-btn {
+  background-color: #5da26f;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(93, 162, 111, 0.3);
+  margin-top: 1rem;
+}
+
+.login-submit-btn:hover {
+  background-color: #4a8a5a;
+  transform: translateY(-3px);
+    color: white;
+
+}
+
+.login-submit-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(93, 162, 111, 0.2);
+}
+
+.login-footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: #4a5568;
+}
+
+.login-footer a {
+  color: #5da26f;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.login-footer a:hover {
+  color: #4a8a5a;
+  text-decoration: underline;
+}
+
+.login-forgot-password {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 2rem;
+    margin: 0.5rem;
+    max-width: 90%;
+  }
+
+  .login-header h1 {
+    font-size: 1.7rem;
+  }
+
+  .login-header p {
+    font-size: 0.9rem;
+  }
+
+  .login-form-group input {
+    padding: 0.8rem 1rem 0.8rem 2.5rem;
+    font-size: 0.9rem;
+  }
+
+  .login-submit-btn {
+    padding: 0.9rem;
+    font-size: 1rem;
+  }
+
+  .login-footer {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .product-reviews h2.text-danger {
+    font-size: 1rem; 
+  }
+}
+@media (max-width: 480px) {
+  .product-reviews h2.text-danger {
+    font-size: 0.9rem; 
+  }
+}

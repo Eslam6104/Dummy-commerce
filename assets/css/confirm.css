@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.confirm-page {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f7f4;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2d3748;
+  line-height: 1.6;
+}
+
+.confirm-container {
+  background-color: white;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(93, 162, 111, 0.15);
+  padding: 2.5rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.confirm-header {
+  margin-bottom: 2rem;
+}
+
+.confirm-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0c7d69;
+  margin-bottom: 0.5rem;
+}
+
+.confirm-header p {
+  color: #4a5568;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.confirm-content {
+  margin-bottom: 1rem;
+}
+
+.confirm-content p {
+  color: #4a5568;
+  font-size: 1.4rem;
+    font-weight: 400;
+
+}
+
+.confirm-action{
+  display: flex;
+gap: 1rem;
+}
+.confirm-shop-btn {
+  background-color: #5da26f;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 50%;
+  text-decoration: none;
+  display: inline-block;
+  height: fit-content;
+  
+}
+
+.confirm-shop-btn:hover {
+  background-color: #4a8a5a;
+  transform: translateY(-2px);
+  color: white;
+}
+
+.confirm-shop-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 480px) {
+  .confirm-container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .confirm-header h1 {
+    font-size: 1.5rem;
+  }
+}
